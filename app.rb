@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end
 
   post '/' do
+    puppy.new(pramas)
   erb :display_puppy
   end
 
