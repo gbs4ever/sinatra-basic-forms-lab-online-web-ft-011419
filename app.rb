@@ -10,5 +10,5 @@ erb  :create_puppy
 end
 post '/'
 erb :display_puppy
-
+end
 end
