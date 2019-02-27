@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    @puppy = puppy.new(pramas)
+    @puppy = puppy.new(pramas['name'],pramas['breed'],pramas['age'])
 
 
   erb :display_puppy
